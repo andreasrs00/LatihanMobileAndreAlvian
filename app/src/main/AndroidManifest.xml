@@ -13,16 +13,11 @@
         android:theme="@style/Theme.LatihanMobileAndreAlvian"
         tools:targetApi="31">
         <activity
-            android:name=".addHomework"
+            android:name=".AddHomeworkActivity"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".HomeworkActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
