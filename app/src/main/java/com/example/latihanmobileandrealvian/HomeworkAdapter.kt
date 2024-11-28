@@ -4,8 +4,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.latihanmobileandrealvian.R
 import com.example.latihanmobileandrealvian.databinding.ItemHomeworkBinding
+
 
 class HomeworkAdapter(private val onItemClickCallback: OnItemClickCallback) :
     RecyclerView.Adapter<HomeworkAdapter.HomeworkViewHolder>() {

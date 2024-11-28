@@ -2,25 +2,27 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     id ("kotlin-parcelize")
+
 }
 
 android {
-    namespace = "com.example.pertemuan7"
+    namespace = "com.example.latihanmobileandrealvian"
     compileSdk = 34
 
+
     defaultConfig {
-        applicationId = "com.example.pertemuan7"
-        minSdk = 27
+        applicationId = "com.example.latihanmobileandrealvian"
+        minSdk = 25
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
-
     buildFeatures{
         viewBinding = true
     }
+
 
     buildTypes {
         release {
@@ -32,11 +34,11 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_11
-        targetCompatibility = JavaVersion.VERSION_11
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
     }
     kotlinOptions {
-        jvmTarget = "11"
+        jvmTarget = "1.8"
     }
 }
 
